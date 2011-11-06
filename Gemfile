@@ -16,18 +16,6 @@ gem 'sass',                '>= 3.1.1'
 gem 'paperclip',           '~> 2.3.6'
 gem 'will_paginate',       '>= 3.0.pre2'
 
-group :development, :test do
-  gem 'ruby-debug',   :platform => :mri_18
-  gem 'ruby-debug19', :platform => :mri_19, :require => 'ruby-debug'
-  gem 'annotate',           '>= 2.4.0'
-  gem 'awesome_print',      '>= 0.3.1'
-
-  gem 'test-unit', '1.2.3' if RUBY_VERSION.to_f >= 1.9
-  gem "rspec-rails",        '>= 2.5.0'
-  gem 'ffaker',             '>= 1.5.0'
-  gem 'factory_girl',       '>= 1.3.3'
-end
-
 
 # Gem watch list:
 #---------------------------------------------------------------------
